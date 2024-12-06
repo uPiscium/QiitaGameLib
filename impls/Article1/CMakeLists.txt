@@ -17,7 +17,7 @@ function(SetLibs)
 endfunction()
 
 function(Build)
-  add_executable(${PROJECT_NAME} gl.cpp main.cpp)
+  add_executable(${PROJECT_NAME} gl.cpp init.cpp window.cpp main.cpp)
   set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY
                                                    ${CMAKE_BINARY_DIR}/bin)
   setincludes()

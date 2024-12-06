@@ -4,10 +4,10 @@
 #include <glad/gl.h>
 
 #include <GLFW/glfw3.h>
+#include <string>
 
 extern bool sGLADLoaded;
 
 void InitGLAD();
-void InitGLFW();
 
 #endif // __INIT_HPP__
